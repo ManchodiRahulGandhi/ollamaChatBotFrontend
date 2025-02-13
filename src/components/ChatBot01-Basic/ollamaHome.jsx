@@ -33,7 +33,7 @@ const OllamaHome = () => {
       const data = await responseStream.json(); // Parse JSON response
       console.log("API Response:", data); // Debugging
   
-      
+      console.log(data);
       setResponse(data.response || "No response received"); 
     } catch (error) {
       console.error("Error fetching response:", error);

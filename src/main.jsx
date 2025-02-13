@@ -6,6 +6,6 @@ import OllamaHome from './components/ChatBot01-Basic/ollamaHome.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <OllamaHome/> {/* this is for basic  */}
+   { <OllamaHome/> /* this is for basic  */}
   </StrictMode>,
 )
